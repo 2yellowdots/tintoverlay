@@ -14,6 +14,8 @@
 		DF7977D2244EB93C00BBD2EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7977D1244EB93C00BBD2EF /* Preview Assets.xcassets */; };
 		DF7977D5244EB93C00BBD2EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7977D3244EB93C00BBD2EF /* LaunchScreen.storyboard */; };
 		DF7977E3244EE3BE00BBD2EF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7977E2244EE3BE00BBD2EF /* MainView.swift */; };
+		DF7977E824515C4C00BBD2EF /* OverlayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7977E724515C4C00BBD2EF /* OverlayExtension.swift */; };
+		DF8A1959245A602300D802E3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A1958245A602300D802E3 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DF7977D4244EB93C00BBD2EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF7977D6244EB93C00BBD2EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF7977E2244EE3BE00BBD2EF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DF7977E724515C4C00BBD2EF /* OverlayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayExtension.swift; sourceTree = "<group>"; };
+		DF8A1958245A602300D802E3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		DF7977E4244EE3FF00BBD2EF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DF7977E724515C4C00BBD2EF /* OverlayExtension.swift */,
+				DF8A1958245A602300D802E3 /* ColorExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -165,8 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7977E824515C4C00BBD2EF /* OverlayExtension.swift in Sources */,
 				DF7977C9244EB93800BBD2EF /* AppDelegate.swift in Sources */,
 				DF7977E3244EE3BE00BBD2EF /* MainView.swift in Sources */,
+				DF8A1959245A602300D802E3 /* ColorExtension.swift in Sources */,
 				DF7977CB244EB93800BBD2EF /* SceneDelegate.swift in Sources */,
 				DF7977CD244EB93800BBD2EF /* ContentView.swift in Sources */,
 			);

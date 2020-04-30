@@ -13,19 +13,29 @@ struct MainView: View {
     
     GeometryReader { geometry in
       ZStack {
-        Image("bgkMain")
+        Image("bkgMain")
           .resizable()
           .aspectRatio(geometry.size, contentMode: .fill)
+          .overlay(TintOverlay().opacity(0.75))
           .edgesIgnoringSafeArea(.all)
       
         VStack() {
               
-          Text("Sign in")
-            .font(.custom("SFProText-Regular", size: 25.0))
+          Text("Metro Center Station")
+            .font(.custom("Helvetica Neue", size: 25.0))
             .foregroundColor(Color.white)
             .padding([.top, .bottom], 40)
-            .shadow(radius: 10.0, x: 1, y: 5).accentColor(Color.white)
-          
+          Spacer()
+          Text("Photo by")
+            .fontWeight(.regular)
+            .foregroundColor(Color.white) +
+          Text(" Chris Grafton")
+            .fontWeight(.semibold)
+            .foregroundColor(Color.white) +
+          Text(" on Unsplash")
+            .fontWeight(.regular)
+            .font(.custom("Helvetica Neue", size: 16.0))
+            .foregroundColor(Color.white)
         }
       }
     }
